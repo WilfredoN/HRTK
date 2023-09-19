@@ -1,4 +1,4 @@
-﻿namespace LAB_1
+﻿namespace LABs.LAB_1
 {
     internal class Program
     {
@@ -21,7 +21,7 @@
             double Z = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine($"Q = {conditionCheck(Z)}");
             Console.Write("4) Start Interval Value = ");
-            double startInterval = Convert.ToDouble(Console.ReadLine()); 
+            double startInterval = Convert.ToDouble(Console.ReadLine());
             Console.Write("End Interval Value = ");
             double endInterval = Convert.ToDouble(Console.ReadLine());
             Console.Write("Value to check = ");
@@ -38,7 +38,7 @@
         }
         static double calculateY(double L2, double P, double M)
         {
-            return (L2 * Math.Pow(P, 2) * M) / P;
+            return L2 * Math.Pow(P, 2) * M / P;
         }
         static double conditionCheck(double Z)
         {
