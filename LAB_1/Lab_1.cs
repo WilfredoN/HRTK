@@ -1,8 +1,8 @@
-﻿namespace LABs.LAB_1
+﻿namespace LAB_1
 {
-    internal class Program
+    internal class Lab_1
     {
-        static void Main(string[] args)
+        public void calculate()
         {
             Console.Write("1) A = ");
             double A = Convert.ToDouble(Console.ReadLine());
